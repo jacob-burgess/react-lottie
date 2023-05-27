@@ -1,5 +1,5 @@
 {
-  "name": "@jacob-burgess/react-lottie",
+  "name": "@jacobburgess/react-lottie",
   "version": "1.2.4",
   "description": "lottie animation view for React [forked from @chenqingspring to support React 18]",
   "repository": {

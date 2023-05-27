@@ -117,7 +117,7 @@ describe('react-lottie', () => {
         component.instance().registerEvents = registerEventsSpy;
         component.update();
 
-        component.instance().componentWillUpdate({
+        component.instance().getSnapshotBeforeUpdate({
           options: {
             ...defaultOptions,
             animationData: beatingHeart,
